@@ -1,0 +1,49 @@
+.about-me-text-container {
+    width: 60%;
+}
+
+.small-title {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.courses {
+  height: 150px;
+  background-color: rgba(255, 184, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.course {
+  margin-block-end: 0.5rem;
+  margin-block-start: 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image-saga {
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .about-me-text-container{
+        width: 100%;
+    }
+
+    .content-container {
+        display: block;
+        width: 80%;
+    }
+    .image-saga {
+        display: block;
+        margin: 0 auto;
+    }
+}

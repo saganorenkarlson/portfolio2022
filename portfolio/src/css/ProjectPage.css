@@ -1,0 +1,33 @@
+    
+.project {
+    margin-bottom: 3rem;
+    width: 45%;
+}
+.image {
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.projects-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+@media only screen and (max-width: 1200px) {
+ .projects-list {
+    width: 80%;
+ }
+
+ .project{
+    width: 100%;
+ }
+}
