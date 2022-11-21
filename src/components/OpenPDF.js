@@ -5,7 +5,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const OpenPDF = ({ isMobile }) => {
   return (
-    <a href={Pdf} target="_blank">
+    <a href={Pdf} target="_blank" rel="noreferrer">
       <div className={isMobile ? "link-mobile" : "link"} id="cv">
         <p className="link-text">Read my CV</p>
         <FontAwesomeIcon className="open-pdf" icon={faArrowUpRightFromSquare} />

@@ -1,0 +1,68 @@
+.home-container{
+    padding: 1rem;
+}
+
+.my-name{
+    color:#FFB800;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-block-start: 0;
+    margin-block-end: 0.5rem;
+    
+}
+
+.my-studies{
+    width: 80%;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.my-goal{
+    font-size: 1.2rem;
+}
+
+.learn-more{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+.link-container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 230px;
+    border-radius: 1.5rem;
+    margin-right: 2rem;
+    background-position: center; /* Center the image */
+    background-size: cover ;
+    margin-bottom: 1rem;   
+}
+
+#cv {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../../public/CV.png");
+}
+
+#projects {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../../public/Projects.png");
+}
+
+.link-text {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
