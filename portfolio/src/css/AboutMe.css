@@ -1,5 +1,5 @@
 .about-me-text-container {
-    width: 60%;
+  width: 60%;
 }
 
 .small-title {
@@ -8,7 +8,7 @@
 }
 
 .courses {
-  height: 150px;
+  height: fit-content;
   background-color: rgba(255, 184, 0, 0.15);
   display: flex;
   flex-direction: column;
@@ -24,26 +24,85 @@
 }
 
 .content-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.image-saga {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.contact-item {
+  display: flex;
+  font-weight: 400;
+  position: relative;
+}
+
+button {
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.linkedin-link {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact-icons {
+  display: block;
+  margin-block-start: 1.2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+span {
+  position: absolute;
+  background-color: bisque;
+  border: solid black 2px;
+  padding:0.2rem;
+  right: 0;
+  top: -1rem;
+}
 
 @media only screen and (max-width: 1200px) {
-    .about-me-text-container{
-        width: 100%;
-    }
+  .about-me-text-container {
+    width: 100%;
+  }
 
-    .content-container {
-        display: block;
-        width: 80%;
-    }
-    .image-saga {
-        display: block;
-        margin: 0 auto;
-    }
+  .content-container {
+    display: block;
+    width: 100%;
+  }
+  .image-saga {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .contact {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .courses {
+    padding: 0.5rem 0;
+  }
 }

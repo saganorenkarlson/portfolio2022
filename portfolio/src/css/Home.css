@@ -1,149 +1,221 @@
-.home-container{
-    padding: 1rem;
-    padding-top: 7rem;
-    width: 1200px;
-    display: flex;
+.home-container {
+  padding: 1rem;
+  padding-top: 7rem;
+  width: 1200px;
+  display: flex;
 }
 
-.my-name{
-    color:#FFB800;
-    font-weight: bold;
-    font-size: 2rem;
-    margin-block-start: 0;
-    margin-block-end: 0.5rem;
+.my-name {
+  color: #ffb800;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-block-start: 0;
+  margin-block-end: 0.5rem;
 }
 
-.my-studies{
-    width: 80%;
-    font-weight: bold;
-    font-size: 3rem;
-    margin-block-start: 0;
-    margin-block-end: 0;
+.my-studies {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
-.my-goal{
-    font-size: 1.2rem;
-    width: 70%;
+.my-goal {
+  font-size: 1.2rem;
 }
 
-.learn-more{
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-top: 4rem;
+.learn-more {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2rem;
 }
 
 .link-container {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    height: 230px;
-    border-radius: 1.5rem;
-    margin-right: 2rem;
-    background-position: center; /* Center the image */
-    background-size: cover ;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 230px;
+  border-radius: 1.5rem;
+  margin-right: 2rem;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  margin-bottom: 1rem;
 }
 
+.link-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 1rem;
+  background-position: center; /* Center the image */
+  background-size: cover;
+  margin-bottom: 1rem;
+}
+
+.link:hover {
+  box-shadow: 1px 10px 21px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 10px 21px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 10px 21px 0px rgba(0, 0, 0, 0.2);
+}
 
 #cv {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../../public/CV.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url("../images/CV.png");
 }
 
 #cv:hover {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("../../public/CV.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("../images/CV.png");
 }
 
 #projects {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../../public/Projects.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url("../images/Projects.jpg");
 }
 
 #projects:hover {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("../../public/Projects.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("../images/Projects.jpg");
 }
 
 #about-me {
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url("../../public/AboutMe.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url("../images/AboutMe.jpg");
 }
 
 #about-me:hover {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url("../../public/AboutMe.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("../images/AboutMe.jpg");
 }
 
 .link-text {
-    color: white;
-    font-size: 1.2rem;
-    text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
-.open-pdf{
-    color: white;
-    margin-left: 0.5rem;
+.open-pdf {
+  color: white;
+  margin-left: 0.5rem;
 }
 
 .image-saga-home {
-    align-self: flex-end;
-    margin-bottom: 1rem;
+  align-self: flex-end;
+  margin-bottom: 3rem;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.9) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
 
 @media only screen and (max-width: 1200px) {
+  .home-container {
+    padding-top: 2rem;
+    flex-direction: column;
+  }
+  .image-saga-home {
+    display: block;
+    height: 300px;
+    margin: 0 auto 1rem auto;
+    mask-image: none;
+    -webkit-mask-image: none;
+    border-radius: 10rem;
+    order: -1;
+  }
+}
 
-    .home-container {
-        padding-top:2rem;
-        width: 100%;
+@media only screen and (max-width: 820px) {
 
-    }
-    .link-container{
+    .link-container {
         flex-direction: column;
         align-items: center;
         flex-wrap: nowrap;
-    }
+        width: 100%;
+      }
 
-    a{
+    .link {
+        width: 100%;
+        margin-right: 0;
+      }
+
+      a {
         width: 100%;
         display: flex;
         justify-content: center;
-    }
-    .link{
-        width:80%;
-        margin-right: 0;
-    }
-    
-    .my-name{
-        width:80%;
-        font-size: 1rem;
-    }
+      }
 
-    .my-studies{
-        width:80%;
-        font-size: 1.5rem;
-    }
-    
-    .my-goal{
-        width:80%;
-        font-size: 1rem;
-    }
-    
-    .learn-more{
-        font-size: 1rem;
-        margin-top: 0;
-        width: 80%;
-    }
+}
 
-    .home-content-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media only screen and (max-width: 600px) {
+  .image-saga-home {
+    display: block;
+    height: 200px;
+    margin: 0 auto 1rem auto;
+    mask-image: none;
+    -webkit-mask-image: none;
+    border-radius: 6rem;
+    order: -1;
+  }
+
+  .image {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 15rem;
+    width: 100%;
+  }
+
+  .my-name {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .my-studies {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .my-goal {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .learn-more {
+    font-size: 1rem;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .home-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
