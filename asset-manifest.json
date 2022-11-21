@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2d0a91c8.css",
+    "main.js": "/portfolio/static/js/main.d3d76131.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/AboutMe.jpg": "/portfolio/static/media/AboutMe.44c5905e8bd6ba761692.jpg",
+    "static/media/cv_SagaNorénKarlson_.pdf": "/portfolio/static/media/cv_SagaNorénKarlson_.5b58d04e9fe647e61867.pdf",
+    "static/media/saga-aboutme.png": "/portfolio/static/media/saga-aboutme.f537c28507ad689eeea7.png",
+    "static/media/fulvin.png": "/portfolio/static/media/fulvin.eb172ab0e8fe5b57ba3a.png",
+    "static/media/Projects.jpg": "/portfolio/static/media/Projects.9ffdb511aba0c9700c74.jpg",
+    "static/media/saga-home.jpg": "/portfolio/static/media/saga-home.34d97e317099aa18be0c.jpg",
+    "static/media/saga-home-mobile.jpg": "/portfolio/static/media/saga-home-mobile.d34bbf3e32e284734a8d.jpg",
+    "static/media/angrybirds.png": "/portfolio/static/media/angrybirds.32287cf5b380c54792a2.png",
+    "static/media/CV.png": "/portfolio/static/media/CV.ded2af93eec0fa867efc.png",
+    "index.html": "/portfolio/index.html",
+    "main.2d0a91c8.css.map": "/portfolio/static/css/main.2d0a91c8.css.map",
+    "main.d3d76131.js.map": "/portfolio/static/js/main.d3d76131.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d0a91c8.css",
+    "static/js/main.d3d76131.js"
+  ]
+}
