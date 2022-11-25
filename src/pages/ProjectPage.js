@@ -21,6 +21,7 @@ const ProjectPage = () => {
       <div className="project-list">
         {projects.map((project) => (
           <Project
+            key={project.title}
             title={project.title}
             description={project.description}
             skills={project.skills}

@@ -184,14 +184,6 @@ a:active {
     order: -1;
   }
 
-  .image {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 15rem;
-    width: 100%;
-  }
-
   .my-name {
     width: 100%;
     font-size: 1rem;
