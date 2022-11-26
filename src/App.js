@@ -6,7 +6,7 @@ import { AnimatedRoutes } from "./components/AnimatedRoutes";
 function App() {
   return (
     <div className="body">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  basename="/">  
         <AnimatedRoutes />
       </BrowserRouter>
     </div>

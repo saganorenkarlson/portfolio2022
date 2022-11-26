@@ -12,6 +12,15 @@ export const AnimatedRoutes = () => {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
+      <Route
+          path="/"
+          element={
+            <>
+              <ScrollToTop />
+              <Home />
+            </>
+          }
+        />
         <Route
           path="/aboutme"
           element={
@@ -27,15 +36,6 @@ export const AnimatedRoutes = () => {
             <>
               <ScrollToTop />
               <ProjectPage />
-            </>
-          }
-        />
-        <Route
-          path="/"
-          element={
-            <>
-              <ScrollToTop />
-              <Home />
             </>
           }
         />
