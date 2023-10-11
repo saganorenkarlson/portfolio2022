@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a simple website created with React.js
+This is a simple website created with React.js, serving as a portfolio. I designed and developed it at the end of 2022 with the specific aim of showcasing my skills and projects to secure a summer job in 2023.
 
 ## Available Scripts
 
